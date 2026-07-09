@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<title>Ocean Noir — Частный брокер суперъяхт | Индивидуальный подбор и сопровождение сделки</title>
+<meta name="description" content="Ocean Noir — эксклюзивный подбор суперъяхт для частных владельцев. Off-market предложения, полное сопровождение сделки, конфиденциальность на каждом этапе — от первого запроса до выхода в море.">
+<meta name="keywords" content="суперъяхты, яхтенный брокер, купить яхту, off-market яхты, luxury yacht broker, expedition yacht, brokerage">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://oceannoir.example/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ocean Noir — За гранью владения. Добро пожаловать на новый горизонт.">
+<meta property="og:description" content="Эксклюзивные яхты, индивидуальный подбор и сопровождение сделки от первого запроса до выхода в море.">
+<meta property="og:image" content="https://oceannoir.example/assets/og-cover.jpg">
+<meta property="og:url" content="https://oceannoir.example/">
+<meta property="og:site_name" content="Ocean Noir">
+<meta property="og:locale" content="ru_RU">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ocean Noir — Частный брокер суперъяхт">
+<meta name="twitter:description" content="Эксклюзивные яхты, индивидуальный подбор и сопровождение сделки от первого запроса до выхода в море.">
+<meta name="twitter:image" content="https://oceannoir.example/assets/og-cover.jpg">
+
+<!-- Preconnect / fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,300;9..144,400;9..144,500&family=Inter:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2246%22 fill=%22%230A0B0E%22 stroke=%22%23C9A876%22 stroke-width=%222%22/></svg>">
+
+<link rel="stylesheet" href="Yacht.css">
+
+<!-- JSON-LD: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Ocean Noir",
+  "url": "https://oceannoir.example/",
+  "logo": "https://oceannoir.example/assets/logo.png",
+  "description": "Частный брокер суперъяхт: индивидуальный подбор, off-market сделки и полное сопровождение от запроса до передачи яхты.",
+  "sameAs": [
+    "https://www.instagram.com/oceannoir",
+    "https://www.linkedin.com/company/oceannoir"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "email": "concierge@oceannoir.example",
+    "availableLanguage": ["ru", "en"]
+  }
+}
+</script>
+
+<!-- JSON-LD: LocalBusiness (multi-location brokerage) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Ocean Noir",
+  "image": "https://oceannoir.example/assets/office.jpg",
+  "priceRange": "€€€€€",
+  "address": [
+    { "@type": "PostalAddress", "addressLocality": "Monaco", "addressCountry": "MC" },
+    { "@type": "PostalAddress", "addressLocality": "Dubai", "addressCountry": "AE" },
+    { "@type": "PostalAddress", "addressLocality": "Fort Lauderdale", "addressCountry": "US" }
+  ]
+}
+</script>
+
+<!-- JSON-LD: Product (Luxury Goods example listing) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Ocean Noir Off-Market Collection",
+  "category": "Luxury Goods > Yachts",
+  "brand": { "@type": "Brand", "name": "Ocean Noir" },
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "EUR",
+    "lowPrice": "3200000",
+    "highPrice": "48000000",
+    "offerCount": "12"
+  }
+}
+</script>
+
+<!-- JSON-LD: FAQ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Как проходит подбор яхты через Ocean Noir?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Процесс начинается с приватной консультации, где мы формируем профиль владения — маршруты, вместимость, характер эксплуатации. Далее следует адресный подбор среди рыночных и off-market предложений, техническая проверка выбранных судов, сопровождение сделки и организация передачи яхты в порту по выбору владельца." }
+    },
+    {
+      "@type": "Question",
+      "name": "Что такое off-market предложения?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Это яхты, которые не выставлены в публичный доступ — сделки по ним ведутся напрямую между владельцами через доверенных брокеров. Доступ к такому инвентарю открывается только клиентам, прошедшим предварительную верификацию." }
+    },
+    {
+      "@type": "Question",
+      "name": "В каких портах доступна передача яхты?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Монако, Антиб, Пальма, Генуя, Форт-Лодердейл, Майами и Дубай — наша сеть партнеров обеспечивает сопровождение сделки и техническую приемку в каждой из этих гаваней." }
+    }
+  ]
+}
+</script>
+
+<!-- JSON-LD: Breadcrumb -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Ocean Noir", "item": "https://oceannoir.example/" },
+    { "@type": "ListItem", "position": 2, "name": "Коллекция яхт", "item": "https://oceannoir.example/#collection" },
+    { "@type": "ListItem", "position": 3, "name": "Каталог", "item": "https://oceannoir.example/#catalog" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Scroll progress indicator -->
+<div class="scroll-progress" aria-hidden="true"><div class="scroll-progress__bar" id="scrollBar"></div></div>
+
+<!-- Premium cursor -->
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<!-- Skip link -->
+<a class="skip-link" href="#main">Перейти к содержанию</a>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="siteNav">
+  <div class="nav__inner">
+    <a href="#hero" class="nav__logo" aria-label="Ocean Noir — на главную">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+        <circle cx="14" cy="14" r="12.5" stroke="currentColor" stroke-width="1"/>
+        <path d="M6 15C9 13 12 17 14 15C16 13 19 17 22 15" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+      </svg>
+      <span>Ocean&nbsp;Noir</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Основная навигация">
+      <a href="#collection">Коллекция</a>
+      <a href="#philosophy">Философия</a>
+      <a href="#catalog">Каталог</a>
+      <a href="#process">Подбор</a>
+      <a href="#offmarket">Off-Market</a>
+    </nav>
+
+    <button class="nav__burger" id="burgerBtn" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <nav aria-label="Мобильная навигация">
+    <a href="#collection">Коллекция</a>
+    <a href="#philosophy">Философия</a>
+    <a href="#catalog">Каталог</a>
+    <a href="#lifestyle">Стиль жизни</a>
+    <a href="#process">Подбор</a>
+    <a href="#map">География</a>
+    <a href="#offmarket">Off-Market</a>
+    <a href="#voices">Владельцы</a>
+  </nav>
+  <button class="mobile-menu__cta" data-action="consult">Запросить консультацию</button>
+</div>
+
+<!-- ============ CONSULTATION MODAL ============ -->
+<div class="consult-modal" id="consultModal" aria-hidden="true">
+  <div class="consult-modal__backdrop" data-consult-close></div>
+  <div class="consult-modal__panel" role="dialog" aria-modal="true" aria-labelledby="consultModalTitle">
+    <button class="consult-modal__close" type="button" data-consult-close aria-label="Закрыть окно">
+      <span></span><span></span>
+    </button>
+
+    <div class="consult-modal__body" data-consult-view="form">
+      <p class="eyebrow">Частная консультация</p>
+      <h3 id="consultModalTitle" class="consult-modal__title">Расскажите, что вас интересует</h3>
+      <p class="consult-modal__subtitle">Брокер свяжется с вами в течение 24 часов.</p>
+
+      <form class="consult-form" id="consultForm" novalidate>
+        <div class="consult-form__field">
+          <label for="consultName">Имя</label>
+          <input type="text" id="consultName" name="name" autocomplete="name" required>
+        </div>
+        <div class="consult-form__field">
+          <label for="consultContact">Email или телефон</label>
+          <input type="text" id="consultContact" name="contact" autocomplete="email" required>
+        </div>
+        <div class="consult-form__field">
+          <label for="consultBudget">Ориентировочный бюджет</label>
+          <input type="text" id="consultBudget" name="budget" placeholder="Необязательно">
+        </div>
+        <div class="consult-form__field">
+          <label for="consultMessage">Маршруты, сезонность, пожелания</label>
+          <textarea id="consultMessage" name="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary consult-form__submit">
+          <span>Отправить запрос</span>
+        </button>
+        <p class="consult-form__note">Отправляя форму, вы соглашаетесь на обработку данных для связи с вами.</p>
+      </form>
+    </div>
+
+    <div class="consult-modal__body consult-modal__body--success" data-consult-view="success" hidden>
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1"/>
+        <path d="M12 20.5L17 25.5L28 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <h3 class="consult-modal__title">Запрос отправлен</h3>
+      <p class="consult-modal__subtitle">Спасибо! Брокер Ocean&nbsp;Noir свяжется с вами в ближайшее время.</p>
+      <button type="button" class="btn btn--ghost" data-consult-close>Закрыть</button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============ 1. HERO ============ -->
+  <section class="hero" id="hero" aria-label="Главный экран">
+    <canvas id="oceanCanvas" class="hero__canvas" aria-hidden="true"></canvas>
+    <div class="hero__vignette" aria-hidden="true"></div>
+    <div class="hero__grain" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <p class="eyebrow hero__eyebrow" data-split>Частный брокер суперъяхт</p>
+      <h1 class="hero__title">
+        <span class="line" data-split>Beyond Ownership.</span>
+        <span class="line hero__title--accent" data-split>Welcome to a New&nbsp;Horizon.</span>
+      </h1>
+      <p class="hero__subtitle" data-reveal>
+        Эксклюзивные яхты, индивидуальный подбор и сопровождение сделки —
+        от первого запроса до выхода в открытое море.
+      </p>
+      <div class="hero__actions" data-reveal>
+        <button class="btn btn--primary magnetic" data-magnetic data-action="scroll" data-target="#catalog">
+          <span>Подобрать яхту</span>
+        </button>
+        <button class="btn btn--ghost magnetic" data-magnetic data-action="consult">
+          <span>Персональная консультация</span>
+        </button>
+      </div>
+    </div>
+
+    
+  </section>
+
+  <!-- ============ 2. КОЛЛЕКЦИЯ ЯХТ — cinematic film strip ============ -->
+  <section class="film" id="collection" aria-label="Коллекция яхт">
+    <div class="film__header container">
+      <p class="eyebrow" data-reveal>Коллекция</p>
+      <h2 class="h2" data-reveal>Каждое судно — <em>отдельная глава.</em></h2>
+    </div>
+
+    <div class="film__track" id="filmTrack">
+
+      <article class="film__slide" data-index="01">
+        <div class="film__image" style="background-image:url('img/1.jpg')"></div>
+        <div class="film__body">
+          <h3 class="film__name">Solenne</h3>
+          <p class="film__yard mono">Feadship · Full Custom</p>
+          <div class="film__divider"></div>
+          <div class="film__specs">
+            <div><strong>82&nbsp;м</strong><span class="mono">LOA</span></div>
+            <div><strong>12</strong><span class="mono">Гостей</span></div>
+            <div><strong>2024</strong><span class="mono">Год постройки</span></div>
+          </div>
+          <div class="film__footer">
+            <span class="film__price mono">от 24 500 000 €</span>
+            <button class="film__cta" data-action="consult"><span>Запросить осмотр</span></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="film__slide" data-index="02">
+        <div class="film__image" style="background-image:url('img/2.jpg')"></div>
+        <div class="film__body">
+          <h3 class="film__name">Meridian Noir</h3>
+          <p class="film__yard mono">Lürssen · Explorer</p>
+          <div class="film__divider"></div>
+          <div class="film__specs">
+            <div><strong>96&nbsp;м</strong><span class="mono">LOA</span></div>
+            <div><strong>14</strong><span class="mono">Гостей</span></div>
+            <div><strong>2023</strong><span class="mono">Год постройки</span></div>
+          </div>
+          <div class="film__footer">
+            <span class="film__price mono">от 38 900 000 €</span>
+            <button class="film__cta" data-action="consult"><span>Запросить осмотр</span></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="film__slide" data-index="03">
+        <div class="film__image" style="background-image:url('img/3.jpg')"></div>
+        <div class="film__body">
+          <h3 class="film__name">Obsidienne</h3>
+          <p class="film__yard mono">Oceanco · Displacement</p>
+          <div class="film__divider"></div>
+          <div class="film__specs">
+            <div><strong>74&nbsp;м</strong><span class="mono">LOA</span></div>
+            <div><strong>10</strong><span class="mono">Гостей</span></div>
+            <div><strong>2025</strong><span class="mono">Год постройки</span></div>
+          </div>
+          <div class="film__footer">
+            <span class="film__price mono">от 31 200 000 €</span>
+            <button class="film__cta" data-action="consult"><span>Запросить осмотр</span></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="film__slide" data-index="04">
+        <div class="film__image" style="background-image:url('img/4.jpg')"></div>
+        <div class="film__body">
+          <h3 class="film__name">Argent Blue</h3>
+          <p class="film__yard mono">Benetti · Fast Displacement</p>
+          <div class="film__divider"></div>
+          <div class="film__specs">
+            <div><strong>65&nbsp;м</strong><span class="mono">LOA</span></div>
+            <div><strong>10</strong><span class="mono">Гостей</span></div>
+            <div><strong>2022</strong><span class="mono">Год постройки</span></div>
+          </div>
+          <div class="film__footer">
+            <span class="film__price mono">от 24 500 000 €</span>
+            <button class="film__cta" data-action="consult"><span>Запросить осмотр</span></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="film__slide" data-index="05">
+        <div class="film__image" style="background-image:url('img/5.jpg')"></div>
+        <div class="film__body">
+          <h3 class="film__name">Halcyon</h3>
+          <p class="film__yard mono">Sanlorenzo · Sailing</p>
+          <div class="film__divider"></div>
+          <div class="film__specs">
+            <div><strong>48&nbsp;м</strong><span class="mono">LOA</span></div>
+            <div><strong>8</strong><span class="mono">Гостей</span></div>
+            <div><strong>2024</strong><span class="mono">Год постройки</span></div>
+          </div>
+          <div class="film__footer">
+            <span class="film__price mono">от 12 800 000 €</span>
+            <button class="film__cta" data-action="consult"><span>Запросить осмотр</span></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="film__slide" data-index="06">
+        <div class="film__image" style="background-image:url('img/6.jpg')"></div>
+        <div class="film__body">
+          <h3 class="film__name">Nocturne</h3>
+          <p class="film__yard mono">Riva · Sport</p>
+          <div class="film__divider"></div>
+          <div class="film__specs">
+            <div><strong>27&nbsp;м</strong><span class="mono">LOA</span></div>
+            <div><strong>6</strong><span class="mono">Гостей</span></div>
+            <div><strong>2025</strong><span class="mono">Год постройки</span></div>
+          </div>
+          <div class="film__footer">
+            <span class="film__price mono">от 3 200 000 €</span>
+            <button class="film__cta" data-action="consult"><span>Запросить осмотр</span></button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="film__progress" aria-hidden="true"><div class="film__progress-bar" id="filmProgress"></div></div>
+  </section>
+
+  <!-- ============ 3. ИСТОРИЯ БРЕНДА — asymmetric split ============ -->
+  <section class="philosophy" id="philosophy" aria-label="Философия">
+    <div class="philosophy__grid container">
+      <div class="philosophy__text">
+        <p class="eyebrow" data-reveal>Философия</p>
+        <h2 class="h2" data-reveal>Сделка, о которой <em>никто не узнает</em>,<br>кроме тех, кому вы сами расскажете.</h2>
+        <p class="philosophy__lead" data-reveal>
+          Мы работаем там, где заканчиваются публичные листинги. Двадцать три года
+          в структурировании владельческих сделок научили нас одному: подлинная
+          роскошь измеряется не тем, что видно, а тем, что остаётся между строк —
+          конфиденциальностью, точностью и людьми, которым можно доверить процесс
+          целиком.
+        </p>
+
+        <div class="philosophy__stats">
+          <div class="stat" data-reveal>
+            <span class="stat__num mono" data-count="23">0</span>
+            <span class="stat__label">года на рынке</span>
+          </div>
+          <div class="stat" data-reveal>
+            <span class="stat__num mono" data-count="140">0</span>
+            <span class="stat__label">сопровождённых сделок</span>
+          </div>
+          <div class="stat" data-reveal>
+            <span class="stat__num mono" data-count="9">0</span>
+            <span class="stat__label">портов присутствия</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="philosophy__image waterline" data-parallax>
+        <img src="img/7.jpg" alt="Капитанский мостик суперъяхты в сумерках" loading="lazy" width="1800" height="2400">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. КАТАЛОГ — manifest list, filterable ============ -->
+  <section class="catalog" id="catalog" aria-label="Каталог яхт">
+    <div class="container">
+      <div class="catalog__header">
+        <p class="eyebrow" data-reveal>Инвентарь</p>
+        <h2 class="h2" data-reveal>Каталог</h2>
+      </div>
+
+      <div class="catalog__filters" role="group" aria-label="Фильтры каталога">
+        <button class="filter-chip is-active" data-filter="all">Все</button>
+        <button class="filter-chip" data-filter="new">Новые</button>
+        <button class="filter-chip" data-filter="brokerage">Brokerage</button>
+        <button class="filter-chip" data-filter="expedition">Expedition</button>
+        <button class="filter-chip" data-filter="catamaran">Catamaran</button>
+        <button class="filter-chip" data-filter="sailing">Sailing</button>
+        <button class="filter-chip" data-filter="explorer">Explorer</button>
+      </div>
+
+      <div class="catalog__list" id="catalogList">
+
+        <a href="#" class="catalog__row" data-category="new expedition">
+          <span class="catalog__row-name">Solenne</span>
+          <span class="catalog__row-maker mono">Feadship</span>
+          <span class="catalog__row-length mono">82&nbsp;м</span>
+          <span class="catalog__row-price mono">POA</span>
+          <span class="catalog__row-tag mono">New&nbsp;Build</span>
+        </a>
+
+        <a href="#" class="catalog__row" data-category="brokerage explorer">
+          <span class="catalog__row-name">Meridian Noir</span>
+          <span class="catalog__row-maker mono">Lürssen</span>
+          <span class="catalog__row-length mono">96&nbsp;м</span>
+          <span class="catalog__row-price mono">€48,000,000</span>
+          <span class="catalog__row-tag mono">Brokerage</span>
+        </a>
+
+        <a href="#" class="catalog__row" data-category="new brokerage">
+          <span class="catalog__row-name">Obsidienne</span>
+          <span class="catalog__row-maker mono">Oceanco</span>
+          <span class="catalog__row-length mono">74&nbsp;м</span>
+          <span class="catalog__row-price mono">POA</span>
+          <span class="catalog__row-tag mono">Off-Market</span>
+        </a>
+
+        <a href="#" class="catalog__row" data-category="brokerage">
+          <span class="catalog__row-name">Argent Blue</span>
+          <span class="catalog__row-maker mono">Benetti</span>
+          <span class="catalog__row-length mono">65&nbsp;м</span>
+          <span class="catalog__row-price mono">€29,500,000</span>
+          <span class="catalog__row-tag mono">Brokerage</span>
+        </a>
+
+        <a href="#" class="catalog__row" data-category="new sailing">
+          <span class="catalog__row-name">Halcyon</span>
+          <span class="catalog__row-maker mono">Sanlorenzo</span>
+          <span class="catalog__row-length mono">48&nbsp;м</span>
+          <span class="catalog__row-price mono">€16,200,000</span>
+          <span class="catalog__row-tag mono">New&nbsp;Build</span>
+        </a>
+
+        <a href="#" class="catalog__row" data-category="brokerage catamaran">
+          <span class="catalog__row-name">Two Horizons</span>
+          <span class="catalog__row-maker mono">Sunreef</span>
+          <span class="catalog__row-length mono">40&nbsp;м</span>
+          <span class="catalog__row-price mono">€11,800,000</span>
+          <span class="catalog__row-tag mono">Brokerage</span>
+        </a>
+
+        <a href="#" class="catalog__row" data-category="brokerage">
+          <span class="catalog__row-name">Nocturne</span>
+          <span class="catalog__row-maker mono">Riva</span>
+          <span class="catalog__row-length mono">27&nbsp;м</span>
+          <span class="catalog__row-price mono">€6,400,000</span>
+          <span class="catalog__row-tag mono">Brokerage</span>
+        </a>
+
+        <a href="#" class="catalog__row" data-category="new expedition explorer">
+          <span class="catalog__row-name">Terra Australis</span>
+          <span class="catalog__row-maker mono">Damen</span>
+          <span class="catalog__row-length mono">58&nbsp;м</span>
+          <span class="catalog__row-price mono">POA</span>
+          <span class="catalog__row-tag mono">New&nbsp;Build</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5. LIFESTYLE — full-bleed sequence ============ -->
+  <section class="lifestyle" id="lifestyle" aria-label="Стиль жизни">
+    <div class="lifestyle__intro container">
+      <p class="eyebrow" data-reveal>Не яхты. Ощущения.</p>
+      <h2 class="h2" data-reveal>То, ради чего <em>всё это существует.</em></h2>
+    </div>
+
+    <div class="lifestyle__frame">
+      <div class="lifestyle__img lifestyle__img--a">
+        <img src="img/8.jpg" alt="Закат с борта яхты, вид на океан" loading="lazy" width="2200" height="1400">
+      </div>
+      
+    </div>
+
+    <div class="lifestyle__frame lifestyle__frame--right">
+      <div class="lifestyle__img lifestyle__img--b">
+        <img src="img/9.jpg" alt="Ужин на кормовой террасе яхты" loading="lazy" width="2200" height="1400">
+      </div>
+      
+    </div>
+
+    <div class="lifestyle__frame">
+      <div class="lifestyle__img lifestyle__img--c">
+        <img src="img/10.jpg" alt="Вертолётная площадка на верхней палубе яхты" loading="lazy" width="2200" height="1400">
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- ============ 6. ИНДИВИДУАЛЬНЫЙ ПОДБОР — process chapters ============ -->
+  <section class="process" id="process" aria-label="Процесс подбора">
+    <div class="process__header container">
+      <p class="eyebrow" data-reveal>Путь владельца</p>
+      <h2 class="h2" data-reveal>Шесть этапов <em>до вашего горизонта.</em></h2>
+    </div>
+
+    <div class="process__list container">
+
+      <div class="process__item" data-reveal>
+        <span class="process__index mono">01 / 06</span>
+        <h3 class="process__title">Консультация</h3>
+        <p class="process__desc">Формируем профиль владения: маршруты, сезонность,
+          состав гостей, требования к экипажу. Это основа, на которой строится
+          весь дальнейший подбор.</p>
+      </div>
+
+      <div class="process__item" data-reveal>
+        <span class="process__index mono">02 / 06</span>
+        <h3 class="process__title">Подбор</h3>
+        <p class="process__desc">Обращаемся к рыночным листингам и закрытому
+          off-market инвентарю. Каждый вариант проходит предварительный отбор
+          нашими брокерами до того, как попадёт к вам.</p>
+      </div>
+
+      <div class="process__item" data-reveal>
+        <span class="process__index mono">03 / 06</span>
+        <h3 class="process__title">Осмотр</h3>
+        <p class="process__desc">Организуем частный осмотр в порту базирования
+          судна — с переводом технической документации и присутствием
+          независимого сюрвейера.</p>
+      </div>
+
+      <div class="process__item" data-reveal>
+        <span class="process__index mono">04 / 06</span>
+        <h3 class="process__title">Проверка</h3>
+        <p class="process__desc">Полный технический due diligence: корпус,
+          двигатели, электронные системы, история обслуживания. Отчёт
+          передаётся вам до подписания каких-либо документов.</p>
+      </div>
+
+      <div class="process__item" data-reveal>
+        <span class="process__index mono">05 / 06</span>
+        <h3 class="process__title">Сделка</h3>
+        <p class="process__desc">Структурируем сделку через проверенных
+          юристов и эскроу-агентов в юрисдикции по вашему выбору. Полная
+          конфиденциальность сторон на всех этапах.</p>
+      </div>
+
+      <div class="process__item" data-reveal>
+        <span class="process__index mono">06 / 06</span>
+        <h3 class="process__title">Передача яхты</h3>
+        <p class="process__desc">Финальная приёмка, инструктаж экипажа и
+          передача судна в порту по вашему выбору — от Монако до Форт-Лодердейла.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ 7. КАРТА МИРА ============ -->
+  <section class="worldmap" id="map" aria-label="География присутствия">
+    <div class="worldmap__header container">
+      <p class="eyebrow" data-reveal>География</p>
+      <h2 class="h2" data-reveal>Присутствие там, где <em>решаются сделки.</em></h2>
+    </div>
+
+    <div class="worldmap__stage">
+      <svg viewBox="0 0 1200 560" class="worldmap__svg" id="worldSvg" aria-label="Карта портов присутствия Ocean Noir" role="img">
+        <defs>
+          <radialGradient id="portGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#E8B370" stop-opacity="0.9"/>
+            <stop offset="100%" stop-color="#E8B370" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+
+        <!-- simplified world landmasses, noir cartography style -->
+        <g class="worldmap__land" fill="#171920" stroke="#262933" stroke-width="1">
+          <path d="M120,180 L260,150 L320,190 L300,240 L200,260 L140,230 Z"/>
+          <path d="M330,140 L520,110 L620,150 L600,230 L470,260 L360,220 Z"/>
+          <path d="M540,270 L610,260 L640,340 L590,420 L540,400 L520,320 Z"/>
+          <path d="M660,140 L900,120 L980,180 L920,240 L760,250 L680,200 Z"/>
+          <path d="M780,280 L920,270 L960,360 L860,400 L790,350 Z"/>
+          <path d="M980,340 L1080,330 L1100,380 L1020,400 Z"/>
+        </g>
+
+        <!-- route arcs -->
+        <g class="worldmap__routes" fill="none" stroke="#C9A876" stroke-width="1.2" stroke-opacity="0.55">
+          <path class="route" id="route1" d="M470,205 Q560,120 760,190"/>
+          <path class="route" id="route2" d="M470,205 Q400,300 590,340"/>
+          <path class="route" id="route3" d="M590,340 Q650,260 760,190"/>
+          <path class="route" id="route4" d="M470,205 Q300,150 230,190"/>
+          <path class="route" id="route5" d="M760,190 Q880,230 900,300"/>
+          <path class="route" id="route6" d="M470,205 Q530,240 590,340"/>
+        </g>
+
+        <!-- ports -->
+        <g class="worldmap__ports">
+          <g class="port" data-port="Монако" transform="translate(470,205)">
+            <circle r="14" fill="url(#portGlow)"/><circle r="3.5" fill="#F2F1ED"/>
+            <text x="10" y="-10" class="mono">Монако</text>
+          </g>
+          <g class="port" data-port="Антиб" transform="translate(455,215)">
+            <circle r="10" fill="url(#portGlow)"/><circle r="2.5" fill="#F2F1ED"/>
+          </g>
+          <g class="port" data-port="Пальма" transform="translate(410,235)">
+            <circle r="10" fill="url(#portGlow)"/><circle r="2.5" fill="#F2F1ED"/>
+            <text x="-52" y="6" class="mono">Пальма</text>
+          </g>
+          <g class="port" data-port="Генуя" transform="translate(500,200)">
+            <circle r="10" fill="url(#portGlow)"/><circle r="2.5" fill="#F2F1ED"/>
+            <text x="10" y="20" class="mono">Генуя</text>
+          </g>
+          <g class="port" data-port="Дубай" transform="translate(760,190)">
+            <circle r="14" fill="url(#portGlow)"/><circle r="3.5" fill="#F2F1ED"/>
+            <text x="10" y="-10" class="mono">Дубай</text>
+          </g>
+          <g class="port" data-port="Майами" transform="translate(230,190)">
+            <circle r="12" fill="url(#portGlow)"/><circle r="3" fill="#F2F1ED"/>
+            <text x="10" y="-10" class="mono">Майами</text>
+          </g>
+          <g class="port" data-port="Форт-Лодердейл" transform="translate(215,205)">
+            <circle r="10" fill="url(#portGlow)"/><circle r="2.5" fill="#F2F1ED"/>
+            <text x="-135" y="18" class="mono">Форт-Лодердейл</text>
+          </g>
+          <g class="port" data-port="Сингапур" transform="translate(900,300)">
+            <circle r="12" fill="url(#portGlow)"/><circle r="3" fill="#F2F1ED"/>
+            <text x="10" y="-10" class="mono">Сингапур</text>
+          </g>
+          <g class="port" data-port="Сидней" transform="translate(1020,400)">
+            <circle r="10" fill="url(#portGlow)"/><circle r="2.5" fill="#F2F1ED"/>
+            <text x="10" y="-10" class="mono">Сидней</text>
+          </g>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ============ 8. ЭКСКЛЮЗИВНЫЕ ПРЕДЛОЖЕНИЯ ============ -->
+  <section class="offmarket" id="offmarket" aria-label="Off-market предложения">
+    <div class="offmarket__header container">
+      <p class="eyebrow" data-reveal>Private Sale</p>
+      <h2 class="h2" data-reveal>Предложения, которых <em>нет в открытом доступе.</em></h2>
+    </div>
+
+    <div class="offmarket__grid container">
+      <article class="offmarket__card offmarket__card--lg waterline" data-reveal>
+        <div class="offmarket__img" style="background-image:url('img/11.jpg')"></div>
+        <div class="offmarket__body">
+          <span class="mono offmarket__label">Private Sale · один владелец с 2019</span>
+          <h3>Meridian Noir</h3>
+          <p>96 метров. Передаётся напрямую от текущего владельца, без публичного
+            листинга. Полная история обслуживания в верфи-строителе.</p>
+        </div>
+      </article>
+
+      <article class="offmarket__card waterline" data-reveal>
+        <div class="offmarket__img" style="background-image:url('img/12.jpg')"></div>
+        <div class="offmarket__body">
+          <span class="mono offmarket__label">Редкая модель · лимитированная серия</span>
+          <h3>Obsidienne</h3>
+          <p>Один из трёх построенных корпусов данной серии. Доступна к осмотру
+            по предварительной верификации.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ 9. ВЛАДЕЛЬЦЫ ГОВОРЯТ ============ -->
+  <section class="voices" id="voices" aria-label="Отзывы владельцев">
+    <div class="voices__track" id="voicesTrack">
+
+      <figure class="voice">
+        <blockquote data-reveal>
+          «Мы не искали яхту. Мы искали людей, которым можно доверить процесс,
+          не задавая лишних вопросов.»
+        </blockquote>
+        <figcaption class="mono">Владелец, Solenne · 82&nbsp;м</figcaption>
+      </figure>
+
+      <figure class="voice">
+        <blockquote data-reveal>
+          «Осмотр, проверка, передача — три недели без единого момента
+          неопределённости.»
+        </blockquote>
+        <figcaption class="mono">Владелец, Argent Blue · 65&nbsp;м</figcaption>
+      </figure>
+
+      <figure class="voice">
+        <blockquote data-reveal>
+          «Тот редкий случай, когда конфиденциальность не значит формальность
+          в договоре, а ощущается на каждом звонке.»
+        </blockquote>
+        <figcaption class="mono">Владелец, Meridian Noir · 96&nbsp;м</figcaption>
+      </figure>
+
+    </div>
+
+    <div class="voices__dots" id="voicesDots" aria-hidden="true"></div>
+  </section>
+
+  <!-- ============ 10. FINAL CTA ============ -->
+  <section class="final" id="final" aria-label="Финальный призыв к действию">
+    <div class="final__image waterline">
+      <img src="img/13.jpg" alt="Суперъяхта ночью на спокойной воде" loading="lazy" width="2400" height="1600">
+    </div>
+    <div class="final__overlay" aria-hidden="true"></div>
+
+    <div class="final__content">
+      <h2 class="final__title" data-split>Ваш следующий горизонт начинается здесь.</h2>
+      <button class="btn btn--mirror magnetic" data-magnetic data-action="consult">
+        <span>Запросить консультацию</span>
+      </button>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer__inner container">
+    <div class="footer__brand">
+      <span class="footer__logo">Ocean&nbsp;Noir</span>
+      <p class="mono">Частный брокер суперъяхт</p>
+    </div>
+
+    <nav class="footer__col" aria-label="Навигация в подвале">
+      <span class="mono footer__col-title">Навигация</span>
+      <a href="#collection">Коллекция</a>
+      <a href="#catalog">Каталог</a>
+      <a href="#process">Подбор</a>
+      <a href="#offmarket">Off-Market</a>
+    </nav>
+
+    <div class="footer__col">
+      <span class="mono footer__col-title">Присутствие</span>
+      <span>Монако · Дубай · Майами</span>
+      <span>Антиб · Пальма · Генуя</span>
+      <span>Форт-Лодердейл · Сингапур</span>
+    </div>
+
+    <div class="footer__col">
+      <span class="mono footer__col-title">Приватный контакт</span>
+      <a href="mailto:concierge@oceannoir.example">concierge@oceannoir.example</a>
+      <a href="tel:+37700000000">+377&nbsp;00&nbsp;00&nbsp;00&nbsp;00</a>
+    </div>
+  </div>
+
+  <div class="footer__legal container">
+    <span class="mono">© 2026 Ocean Noir. Все права защищены.</span>
+    <span class="mono">Конфиденциальность · Условия сотрудничества</span>
+  </div>
+</footer>
+
+<script src="Yacht.js"></script>
+</body>
+</html>
